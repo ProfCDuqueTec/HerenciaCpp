@@ -67,6 +67,23 @@ int main() {
     return 0;
 }
 ```
+```mermaid
+classDiagram
+    class Usuario {
+        +string nombre
+        +string correo
+        +string contrasena
+        +void autenticar() const
+    }
+
+    class Administrador {
+        +string nombre
+        +string correo
+        +string contrasena
+        +void autenticarAdmin() const
+        +void asignarPermisos() const
+    }
+```
 
 ---
 
